@@ -1,0 +1,152 @@
+/* general styles */
+html, body {
+height: 100%;
+width: 100%;
+}
+/* responsive text queries */
+/* responsive text queries */
+@media screen and (max-width: 780px) {
+    .background-1, .background-2, .background-3 {
+        background-attachment: scroll !important;
+        background-position: center center !important;
+    }
+}
+.glyphicon {
+    font-size: 30px;
+}
+hr.style {
+	border-top: 3px double #8c8b8b;
+	max-width:80%;
+}
+/* padded section */
+.pad-section {
+padding: 50px 0;
+}
+.pad-section img {
+width: 100%;
+}
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#ffffff;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+.ptext2{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  text-shadow: 2px 2px #ffffff;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+.mypcolor{
+  color:#ffffff;
+}
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+.section-dark{
+  background-color:#34495E;
+  color:#ffffff;
+}
+
+.lead{
+  color: #666;
+}
+.panel-heading{
+  text-align: center;
+}
+.panel-body{
+	margin-bottom: 0;
+}
+.panel-table {
+  border-style: none;
+}
+
+/* additional sections */
+#background-1{
+  background: url(img/innovateAFITC.jpg) no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  min-height: 89.4%;
+  position:relative;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+#background-2{
+  background: url(img/Gump_Downtown.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 70%;
+  position:relative;
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+#background-3{
+  background: url(img/citysilhouette.jpeg) no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  min-height: 70%;
+  position: relative;
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+#about {
+  display: table;
+  min-height: 300px;
+  position: relative;
+  width: 100%;
+}
+
+#information {
+  display: table;
+  min-height: 300px;
+  position: relative;
+  width: 100%;
+}
+#Partnerships {
+  display: table;
+  min-height: 200px;
+  position: relative;
+  width: 100%;
+
+#USAF{
+  border:2px solid #FFFFFF;
+  border-radius:80%;
+  max-width:50%;
+  max-height:50%;
+}
+#AFCEA{
+  border:2px solid #FFFFFF;
+  border-radius:80%;
+  max-width:50%;
+  max-height:50%;
+}
+
+
